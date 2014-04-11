@@ -14,10 +14,10 @@ describe 'Grid module', ->
         false
 
     describe 'initialization', ->
-      it 'should setup an empty grid', ->
+      xit 'should setup an empty grid', ->
         expect(gridService.grid).toEqual []
 
-      it 'should setup empty tiles', ->
+      xit 'should setup empty tiles', ->
         expect(gridService.tiles).toEqual []
 
       it 'should setup the grid size', ->
